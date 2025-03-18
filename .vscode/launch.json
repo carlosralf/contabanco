@@ -1,0 +1,16 @@
+{
+    "java.project.outputPath": "bin",
+    "files.exclude": {
+        "**/*.class": true
+    },
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Conta_Terminal",
+            "request": "launch",
+            "mainClass": "Conta_Terminal",
+            "projectName": "contabanco_6d4f79d4"
+        }
+    ]
+}

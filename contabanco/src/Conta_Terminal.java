@@ -1,11 +1,6 @@
 import java.util.Scanner;
 
-public class ContaTerminal {
- 
-    /**
-     * @param args
-     */
-    @SuppressWarnings({ "resource" })
+public class Conta_Terminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 // Entrada com as dados da conta
@@ -23,5 +18,5 @@ public class ContaTerminal {
 
     // Saida dos dados
         System.out.println("Olá ".concat(nome).concat(", obrigado por criar uma conta em nosso banco, sua agência é ")+Agencia +", conta ".concat(Conta).concat(" e seu saldo é: ")+Saldo +" já está disponível para saque");
-        }
-}
+        }   
+    }
